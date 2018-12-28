@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaseSqlTest</string>
+    <string name="emp_desc">designation</string>
+    <string name="emp_name">name</string>
+</resources>

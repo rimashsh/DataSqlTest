@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="@dimen/md_keylines">
+
+
+
+    <TextView
+        android:id="@+id/emp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/md_keylines"
+        android:text="@string/emp_name"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="@dimen/emp_subheading" />
+
+    <TextView
+        android:id="@+id/emp_designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emp_name"
+        android:layout_marginLeft="@dimen/md_keylines"
+        android:textColor="@android:color/darker_gray"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/emp_desc"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="@dimen/emp_body" />
+</RelativeLayout>
